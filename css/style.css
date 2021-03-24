@@ -128,3 +128,109 @@ h1 {
 }
 
 /* Main */
+.header-main {
+    height: 125px;
+    background-color: #D5D3D5;
+    text-align: center;
+    line-height: 35px;
+    padding-top: 30px;
+}
+
+.header-main > p {
+    color: gray;
+}
+
+.offers {
+    height: 550px;
+    background-color: white;
+    text-align: center;
+}
+
+.boxes {
+    position: relative;
+    height: 300px;
+    width: 33%;
+    margin-top: 50px;
+}
+
+.boxes img {
+    margin: 30px;
+}
+
+.boxes h2 {
+    margin: 30px;
+    color: #7cbb02;
+    font-weight: 500;
+}
+
+.boxes p {
+    margin: 35px;
+    color: gray;
+}
+
+.boxes div {
+    position: absolute;
+    top: 105%;
+    left: 40%;
+    width: 70px;
+    border-bottom: 2px solid gray;
+}
+
+#img1 {
+    max-height: 225px;
+    max-width: 125px;
+}
+
+#img2 {
+    margin-bottom: 39px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+#img3 {
+    margin-bottom: 28px;
+    max-width: 150px;
+    max-height: 250px;
+}
+
+#line {
+    width: 95%;
+    border-bottom: 1px solid gray;
+}
+
+.graphic {
+    width: 50%;
+    height: 500px;
+    /* background-color: indianred; */
+}
+
+.graphic img {
+    max-height: 400px;
+    max-width: 500px;
+}
+
+.graphic-text {
+    width: 30%;
+    height: 500px;
+    margin: 50px;
+    /* background-color: lightblue; */
+}
+
+.graphic-text p {
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer */
+.closing {
+    height: 130px;
+    background-color: #D5D3D5;  
+}
+
+
+
+
+
