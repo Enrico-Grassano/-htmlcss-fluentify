@@ -7,6 +7,7 @@
 
 /* Common */
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -128,6 +129,10 @@ h1 {
 }
 
 /* Main */
+main {
+    position: relative;
+}
+
 .header-main {
     height: 125px;
     background-color: #D5D3D5;
@@ -194,26 +199,29 @@ h1 {
 }
 
 #line {
+    position: absolute;
+    left: 35px;
     width: 95%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 
 .graphic {
+    position: relative;
     width: 50%;
-    height: 500px;
-    /* background-color: indianred; */
+    height: 390px;
 }
 
 .graphic img {
+    position: absolute;
+    top: 9%;
     max-height: 400px;
     max-width: 500px;
 }
 
 .graphic-text {
     width: 30%;
-    height: 500px;
+    height: 390px;
     margin: 50px;
-    /* background-color: lightblue; */
 }
 
 .graphic-text p {
@@ -222,13 +230,92 @@ h1 {
     margin-bottom: 20px;
 }
 
+.graphic-text a {
+    color: #6495ed;
+}
+
 
 
 /* Footer */
 .closing {
+    position: relative;
     height: 130px;
     background-color: #D5D3D5;  
 }
+
+.closing-text {
+    line-height: 130px;
+}
+
+.selector {
+    position: relative;
+    position: absolute;
+    top: 55px;
+    left: 780px;
+    width: 150px;
+    margin-left: 80px;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.selector i {
+    position: absolute;
+    top: 3px;
+    right: 0;
+}
+
+.select span {
+    position: absolute;
+    top: 55px;
+    left: 800px;
+    color: gray;
+}
+
+
+
+.closing-btn {
+    position: absolute;
+    top: 35px;
+    right: 180px;
+    padding: 15px 8px;
+    background-color: #7cbb02;
+    border: 1px solid #7cbb02;
+}
+
+.closing-btn-text {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .closing-button:hover {
+    color: #7cbb02;
+} */
+
+.help {
+    position: fixed;
+    z-index: 1;
+    right: 16.5%;
+    bottom: 0.5%;
+    height: 35px;
+    width: 4%;
+    padding-top: 7px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #7cbb02;
+    background-color: #7cbb02;
+    border-radius: 5px;
+    color: white
+}
+
+.help > a {
+    width: 100%;
+    height: 100%;
+    background-color: #7cbb02;
+    color: white;
+    text-decoration: none;
+}
+
 
 
 
